@@ -1,6 +1,7 @@
 # Portfolio | Gabriel
-👨 Olá, meu nome é Gabriel Barros. Sou Front-end developer.
+👨 Olá, meu nome é <strong>Gabriel Barros. Sou Front-end developer.</strong>
 
-🖐 Habilidades: HTML, CSS, JavaScript, Python.
+🖐 Habilidades:<strong> HTML, CSS, JavaScript, Python.</strong>
 
-👨‍💻 Ferramentas: VS Code, Netlify, Git e GitHub.
+👨‍💻 Ferramentas: <strong>VS Code, Netlify, Git e GitHub. </strong> <br> <br>
+<a href=“https://gabrielgon.netlify.app“><img src="https://img.shields.io/badge/-Instagram-6610F2?style=for-the-badge&logo=Instagram&logoColor=FFFFFF&link=https://www.instagram.com/iuricode"/></a>
