@@ -115,6 +115,7 @@ body {
         width: 100vw;
         background: #110e1b;
         z-index: 999;
+        white-space: nowrap;
         top: 4em;
         left: -100%;
         transition: all .5s;
@@ -122,11 +123,9 @@ body {
 
 
     navbar ul li a {
-        display: flex;
-        flex-direction: column;
-        padding-top: 150px;
-        align-items: center;
-        font-size: 25px;
+        padding-top: 120px;
+        white-space: nowrap;
+        font-size: 20px;
 
 }
 
@@ -151,7 +150,7 @@ a {
     transition: all 1s ease-in-out;
 } 
 
-@media (max-width: 960px) {
+@media (max-width: 858px) {
     .container-info {
         display: flex;
         align-items: center;
@@ -648,13 +647,30 @@ footer {
 
 @media (max-width: 600px) {
      span {
-        font-size: 20px;
+        font-size: 1em;
     }
 }
 
 
+@media (max-width: 500px) {
+    .info-body {
+        position: absolute;
+        left: 10px;
+        font-size: 1.2em;
+   }
+}
 
+@media (max-width: 400px) {
+    .btn-primary {
+        width: 8em;
+   }
+}
 
+@media (max-width: 400px) {
+    .btn-second {
+        width: 8em;
+   }
+}
 
 
 @media (max-width: 630px)and (max-width: 1000px) {
@@ -824,7 +840,7 @@ footer {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .container-tecnologias {
         height: 85%;
 
@@ -832,21 +848,33 @@ footer {
     }
 }
 
+@media (max-width: 400px) {
+    .container-tecnologias {
+        height: 20em;
+        width: 100vw;
+        
+    }
+}
+
+
+
+
+
+@media (max-width: 400px) {
+    .img-icones {
+        height: 3.3em;
+        
+    }
+}
+
+
+
 @media (max-width: 424px) and (max-width: 524px) {
     h6 {
         margin-bottom: 2em;
 
     }
 }
-
-
-
-@media (max-width: 600px) and (max-width: 950px) {
-    .container-tecnologias > p {
-        margin-right: 5em;
-    }
-}
-
 
 
 
