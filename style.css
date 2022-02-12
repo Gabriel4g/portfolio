@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -111,7 +115,7 @@ body {
 
     .nav-active {
         position: fixed;
-        height: 100vh;
+        height: 60vh;
         width: 100vw;
         background: #110e1b;
         z-index: 999;
@@ -373,18 +377,25 @@ button, p {
     transition: 900ms ease-in-out;
 }
 .container-quemsou {
-    height: 30em;
+    height: 43em;
     background: #110e1b;
     display: grid;
     place-items: center;
     color: white;
 }
 
+@media(max-width: 800px) {
+    .container-quemsou {
+        height: 30em;
+    }
+}
+
+
+
 
 .minhafoto {
     height: 15em;
-    padding-bottom: 2em;
-    margin-top: 2em;
+    margin-bottom: 5em;
     cursor: default;
 }
 
@@ -392,7 +403,7 @@ button, p {
 .h1-eu {
     font-size: 2.5em;
     font-family: sans-serif;
-    margin-top: 25px;
+    margin-top: 70px;
 }
 
  
@@ -405,20 +416,20 @@ button, p {
 }
 
 
-@media (max-width: 854px) and (max-width: 900px) {
+@media (max-width: 854px) {
     .paragrafo-eu {
         left: 5em;
+        padding-top: 60px;
     }
 }
 
 
 
 .container-projetos {
-    height: 35em;
+    height: 38em;
     margin-top: 8em;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 h5 {
