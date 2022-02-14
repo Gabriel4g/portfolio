@@ -12,32 +12,35 @@ sr.reveal('.developer-img', {
 
 
 sr.reveal('.h1-eu', {
-    duration: 5000
+    duration: 3000
 });
 
 sr.reveal('.paragrafo-eu', {
-    duration: 6000
+    duration: 4000
 });
 
 sr.reveal('.minhafoto', {
-    duration: 6000
+    duration: 5000
 });
 
 
-sr.reveal('.container-quemsou', {duration: 5000})
+
 
 
 sr.reveal('.card1', {
-    duration: 4000
+    duration: 4000,
+    rotate: {x: 10, y: 100, z: 0}
 })
 
 sr.reveal('.card2', {
-    duration: 5000
+    duration: 5000,
+    rotate: {x: 10, y: 100, z: 0}
 })
 
 
 sr.reveal('.card3', {
-    duration: 7000
+    duration: 6000,
+    rotate: {x: 10, y: 100, z: 0}
 })
 
 

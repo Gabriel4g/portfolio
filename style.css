@@ -120,6 +120,7 @@ body {
         background: #110e1b;
         z-index: 999;
         top: 4em;
+        border-radius: 100px;
         left: -100%;
         transition: all .5s;
     }
