@@ -85,7 +85,7 @@ var paragrafo2 = "*Passe o cursor nos icones para ler*"
 
 window.document.querySelector(".html").addEventListener('mouseover', function() {
     paragrafo.innerHTML = "Linguagem de Marcação de Hipertexto,  o HTML é o componente base da web. <br> Isso quer dizer que ele permite a construção de websites e a inserção <br> de novos conteúdos."
-    
+
 })
         /*Essa função dispara quando o cursor sai do icone*/
 window.document.querySelector('.html').addEventListener('mouseout', function() {
@@ -135,5 +135,13 @@ window.document.querySelector('.git').addEventListener('mouseover', function() {
 })
 
 window.document.querySelector('.git').addEventListener('mouseout', function() {
+    paragrafo.innerHTML = paragrafo2
+})
+
+window.document.querySelector('.bootstrap').addEventListener('mouseover', function() {
+    paragrafo.innerHTML = "Bootstrap é um framework web com código-fonte aberto para desenvolvimento <br> de componentes de interface e front-end para sites e aplicações web usando <br> HTML, CSS e JavaScript."
+})
+
+document.querySelector('.bootstrap').addEventListener('mouseout', function() {
     paragrafo.innerHTML = paragrafo2
 })
